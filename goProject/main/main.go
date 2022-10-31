@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-demo/goProject/demo02"
-	"go-demo/goProject/function"
+	"goProject/goProject/demo02"
+	"goProject/goProject/function"
 	"time"
 )
 
