@@ -21,5 +21,4 @@ func main() {
 	fmt.Printf("CPU使用率: %0.1f%%\n内存信息: %v%%\n磁盘使用容量: %0.1f%%\n", function.GetCpuPercent(), function.GetMemPercent(), function.GetDiskPercent())
 	go function.GetCpuUtilization()
 	time.Sleep(time.Hour)
-	fmt.Println("HelloWorld10/31")
 }
